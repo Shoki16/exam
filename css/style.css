@@ -8,22 +8,30 @@ a {
   height: 70px;
   padding: 0 30px;
 }
-.header-ttl {
+.header-ttl a {
   font-size: 24px;
   width: 80px;
+  color: black;
 }
 .header-nav-list {
   font-size: small;
   display: flex;
   font-weight: bold;
+}
+.header-nav-list a{
   color: gray;
 }
 .main{
   position: relative;
+  z-index: 1;
 }
 .text {
   position: absolute;
-  left: 30%;
+  left: 27%;
+  z-index: 3;
+}
+.mg {
+  margin-top: 15%;
 }
 .meg {
   color: #c71585;
@@ -33,21 +41,25 @@ b {
   color: #008b8b;
 }
 .set {
-  margin-top: 5%;
+  margin-top: 15%;
   color: gray;
 }
 .text-1 {
   color: #c71585;
+  font-size: 20px;
 }
 .text-2 {
   font-size: small;
+  padding-top: 3%;
 }
 .flower {
   position: absolute;
-  left: 50%;
+  left: 45%;
+  z-index: 2;
 }
-img {
-  width: 805px;
+.flower img{
+  width: 700px;
+  height: 400px;
 }
 .category {
   color: #c71585;
