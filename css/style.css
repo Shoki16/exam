@@ -1,7 +1,7 @@
 a {
   text-decoration: none;
 }
-.header1 {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,8 +11,6 @@ a {
 .header-ttl {
   font-size: 24px;
   width: 80px;
-  color: black;
-  background-color: white;
 }
 .header-nav-list {
   font-size: small;
@@ -20,10 +18,12 @@ a {
   font-weight: bold;
   color: gray;
 }
+.main{
+  position: relative;
+}
 .text {
-  margin-top: 5%;
-  margin-left: 20%;
   position: absolute;
+  left: 30%;
 }
 .meg {
   color: #c71585;
@@ -43,9 +43,8 @@ b {
   font-size: small;
 }
 .flower {
-  position: relative;
-  top: 15%;
-  left: 37%;
+  position: absolute;
+  left: 50%;
 }
 img {
   width: 805px;
