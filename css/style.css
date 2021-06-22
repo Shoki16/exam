@@ -87,7 +87,8 @@ d {
   color: gray;
   font-size: large;
   border-bottom: 2px solid gray;
-  padding: 20px
+  padding-top: 10px;
+  padding-bottom: 20px;
   
 }
 ul {
@@ -119,4 +120,55 @@ li {
 .line {
   border-bottom: 2px solid gray;
   padding-top: 25px;
+}
+.About {
+  width: auto;
+  height: 550px;
+  background-color:whitesmoke;
+  position: relative;
+}
+.about-ttl {
+  text-align: center;
+  color: #c71585;
+  padding-top: 50px;
+}
+.about-sub-ttl {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  color: gray;
+}
+.about-set {
+  color: gray;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+.about-text-1 {
+  padding-top: 25px;
+}
+
+.about-img img {
+  width: 30%;
+  position: absolute;
+  left: 57%;
+  top: 35%;
+}
+.Service {
+  width: auto;
+  height: 650px;
+  position: relative;
+}
+.service-set {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.service-ttl {
+  color: #c71585;
+}
+.service-sub-ttl {
+  color: gray;
+  font-size: 25px;
+  padding-top: 15px;
 }
