@@ -1,6 +1,9 @@
 a {
   text-decoration: none;
 }
+.meg .meg1 .ttl {
+  font-family:
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -20,6 +23,7 @@ a {
 }
 .header-nav-list a{
   color: gray;
+  margin-right: 10px;
 }
 .main{
   position: relative;
@@ -42,7 +46,7 @@ a {
   font-size: 40px;
   margin-top: 10%;
 }
-b {
+d {
   color: #008b8b;
 }
 .set {
@@ -57,6 +61,10 @@ b {
   font-size: small;
   padding-top: 3%;
 }
+.text-3 {
+  font-size: small;
+  padding-top: 5px;
+}
 .flower {
   position: absolute;
   left: 45%;
@@ -66,18 +74,26 @@ b {
   width: 700px;
   height: 400px;
 }
-.category {
+.News{
+  margin-top: 40%;
+  margin-left: 30%;
+}
+.ttl p {
   color: #c71585;
+  font-size: small;
+}
+.sub-ttl {
+  padding: 5px;
+}
+.sub {
+  padding: 20px;
+  display: inline;
+}
+.botann {
+  width: 100px;
+  height: 20px;
   text-align: center;
-}
-.title {
-  text-align: center;
-  color: gray;
-}
-.text-img {
-  display: flex;
-  justify-content: center;
-}
-img {
-  width: 500px;
+  color: white;
+  background-color: #c71585;
+  border-radius: 30px;
 }
