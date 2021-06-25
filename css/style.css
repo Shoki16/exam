@@ -399,3 +399,50 @@ table th {
   background-color: whitesmoke;
   text-align: left;
 }
+
+.Last{
+  width: auto;
+  height: 700px;
+  position: relative;
+}
+.employment-img img {
+  width: 640px;
+  height: 300px;
+  z-index: 1;
+}
+.employment-text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 3;
+}
+.interview-img img {
+  width: 640px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  bottom: 57%;
+  z-index: 2;
+
+}
+.interview-text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 68%;
+  z-index: 3;
+}
+.employment-form {
+  color: gray;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  font-size: 20px;
+
+}
