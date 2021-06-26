@@ -9,6 +9,10 @@ a {
 .blog-ttl, .company-ttl {
   font-family: cursive;
 }
+.ttl img{
+  width: 90px;
+  height: 30px;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -450,13 +454,24 @@ table th {
   padding: 15px 0;
   border-radius: 30px;
   color: white;
-  background-color: #c71585;
+  background: linear-gradient(#FF69B4, #FF1493, #C71585);
   text-align: center;
   position: absolute;
   top: 75%;
   left: 43%;
-  border: 1px solid #c71585
-  
+  border: 1px solid #c71585;
+  box-shadow: 5px 5px rgb(71, 19, 19);
+}
+.last-botann::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background: url(../img/mailicon.svg)no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0,-50%);
 }
 .footer {
   color: gray;
