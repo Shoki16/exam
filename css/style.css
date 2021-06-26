@@ -80,7 +80,7 @@ d {
   z-index: 2;
 }
 .flower img {
-  width: 700px;
+  width: auto;
   height: 400px;
 }
 .News {
@@ -294,7 +294,7 @@ li {
   border-radius: 30px;
   position: absolute;
   top: 25%;
-  left: 15%;
+  left: 5%;
 }
 .blog-img img {
   width: 100%;
@@ -338,7 +338,7 @@ li {
   border-radius: 30px;
   position: absolute;
   top: 25%;
-  left: 40%;
+  left: 35%;
 }
 .blog-card2 {
   width: 280px;
@@ -439,6 +439,7 @@ table th {
   left: 68%;
   z-index: 3;
 }
+
 .employment-form {
   color: gray;
   font-weight: bold;
@@ -446,6 +447,13 @@ table th {
   top: 60%;
   left: 35%;
   font-size: 20px;
+}
+.last-stick{
+  color: #c71585;
+  width: 30px;
+  position: absolute;
+  top: 68%;
+  left: 52%;
 }
 .last-botann {
   width: 230px;
